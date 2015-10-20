@@ -1,45 +1,21 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Laravel</title>
+@extends('layout.master')
 
-        <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
+@section('content')
 
-        <style>
-            html, body {
-                height: 100%;
-            }
+<h2>Lorem Ipsum Generator</h2>
+<p>If you follow the link below, you will be able to generate
+lorem ipsum paragraphs in order to focus on the layout of
+the page.</p>
+<a href="lorem-ipsum">Create Some Paragraphs</a>
 
-            body {
-                margin: 0;
-                padding: 0;
-                width: 100%;
-                display: table;
-                font-weight: 100;
-                font-family: 'Lato';
-            }
+<h2>Random User Generator</h2>
+<p>Click the link below to generate random user data for your
+application.</p>
+<a href="user-generator">Create Some Users</a>
 
-            .container {
-                text-align: center;
-                display: table-cell;
-                vertical-align: middle;
-            }
+<h2>Password Generator</h2>
+<p>This generator was migrated from P2. It is an XKCD style
+  password generator</p>
+<a href="user-generator">Create Some Users</a>
 
-            .content {
-                text-align: center;
-                display: inline-block;
-            }
-
-            .title {
-                font-size: 96px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="container">
-            <div class="content">
-                <div class="title">Laravel 5</div>
-            </div>
-        </div>
-    </body>
-</html>
+@stop
